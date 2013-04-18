@@ -1,0 +1,176 @@
+body {
+	background: #eaeaea;
+}
+
+.cssConsole {
+font-size: 17px;
+position:relative;
+font-family: courier;
+background: #370f29;
+color: #fefefe;
+padding: 5px;
+overflow: hidden;
+height: 17px;
+cursor:text;
+line-height:17px;
+}
+
+.cssConsoleDisplay {
+float: left; 
+padding-left: 3px;
+white-space: pre;
+}
+
+.cssConsoleInput {
+position:absolute;
+left:0px;
+top:-30px;
+opacity: 0; 
+filter:alpha(opacity=0);
+} 
+
+.cssConsoleCursor {
+float: left;
+background: #fefefe;
+width:8px;
+height:17px;
+margin:0;
+padding:0;
+padding-right:1px;
+padding-left:1px;
+visibility: hidden;
+}
+
+.cssConsoleDisplay span.selected {
+background: #fefefe;
+color: #370f29;	
+}
+
+.cssConsoleDisplay span {
+height:17px;
+line-height:17px;
+color: #fefefe;	
+margin:0;
+padding:0;
+padding-right:1px;
+padding-left:1px;
+height:17px;
+line-height:17px;
+}
+
+.console {
+		background: #370f29;
+		color: #fff;
+		padding: 10px 10px 0;
+}
+
+
+.label {
+	position: absolute;
+	top: 0;
+	z-index:999999;
+	display:none;
+}
+
+.bottom {
+	position: relative;
+}
+
+#input {
+	padding-left: 8px;	
+}
+
+.cssConsole {
+		padding-bottom: 10px;
+}
+
+.cssConsoleDisplay span{
+	font-size: 14px;
+	font-family: 'Ubuntu Mono', sans-serif;
+	background: transparent;
+}
+
+.category {
+	font-weight: bold;
+	color: #6FBF4D;
+}
+
+.margin {
+	margin-left: 20px;
+}
+
+.line {
+	font-weight: bold;
+	padding-bottom: 3px;
+}
+
+.desc {
+	font-style:italic;
+}
+
+.link {
+	color:#59BDA4;
+	margin-bottom: 10px;
+}
+
+.artisan_error {
+	color: red;
+}
+
+.artisan_success {
+	color: lime;
+}
+
+.artisan_hint {
+	color: orange;
+}
+
+.green {
+	color: lime;
+}
+
+.last-commands {
+	display:none;
+}
+
+
+.authentication {
+	float:left;
+	font-size: 14px;
+	font-family: 'Ubuntu Mono', sans-serif;
+	background: transparent;
+	color: #999;
+	padding-right: 5px;
+}
+
+.time {
+	color: lightblue;
+	display:inline-block;
+}
+
+.command {
+	font-weight:bold;
+	padding: 8px 0 2px;
+}
+
+
+/* Scrollbar */
+.terminal { clear: both; padding-top: 5px; background: #370f29; padding: 5px 0;}
+.terminal .viewport { height:775px; overflow: hidden; position: relative; padding: 5px; }
+.terminal .overview { list-style: none; position: absolute; left: 0; top: 0; width:100%}
+.terminal .thumb .end,
+.terminal .thumb { background-color: #ccc; }
+.terminal .scrollbar { position: relative; float: right; width: 15px; }
+.terminal .track { background-color: #370f29; height: 100%; width:13px; position: relative; padding: 0 1px; }
+.terminal .thumb { opacity: 0.8; height: 20px; width: 10px; cursor: pointer; overflow: hidden; position: absolute; top: 0; border-radius: 15px; }
+.terminal .thumb .end { overflow: hidden; height: 5px; width: 13px;  }
+.terminal .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+.terminal .thumb:hover {
+	opacity:1;
+}
+
+.divider {
+	height: 10px;
+}
