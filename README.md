@@ -19,9 +19,6 @@ return array(
 
 First login with credentials (which stored in config-file)
 
-### Artisan+ default view
-![artisan_plus](https://raw.github.com/fpvz/artisan_plus/developement/github_img/artisan_plus.png)
-
 ### Available commands:
 ##### Console:
 - help
@@ -29,5 +26,5 @@ First login with credentials (which stored in config-file)
 - exit
 
 
-### Aritsan+ command: help
-![artisan_plus](https://raw.github.com/fpvz/artisan_plus/developement/github_img/artisan_plus_help.png)
+Pleas note:
+Bundle currently is under developement. It may occur errors and several commands can't be executed for now.
