@@ -26,5 +26,5 @@ First login with credentials (which stored in config-file)
 - exit
 
 
-Pleas note:
+Please note:
 Bundle currently is under developement. It may occur errors and several commands can't be executed for now.
