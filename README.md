@@ -1,30 +1,32 @@
 artisan+
 ============
 
-A bundle for Laravel - Frontend console to execute artisan from web
+A bundle for Laravel to execute artisan from web.
+Especially for windows user without suitably Console-Client it could be a great improvement for workflow.
 
-## How-To:
-- Check your database-setttings in application/config/database.php
-- Install Bundle in application/bundle.php
+It based on the **artisan web bundle** by Joe Wallace
+http://bundles.laravel.com/bundle/artisan
 
+Now you can directly type your commands in a console, instead of in address-bar.
+
+### Features:
+- Authentification with file-based credentials (no special users-table needed).
+- Run artisan commands directly from browser
+
+### Installation:
 ```
-return array(
-  //...
-	'artisan_plus' => array(
-		'handles' => 'artisan_plus',
-		'auto' => true
-	)
-);
+'artisanplus' => array('auto' => true),
 ```
 
-First login with credentials (which stored in config-file)
+You may change the default login credentials, or add new users in:
+```
+bundles/artisanplus/config/users.php
+```
 
-### Available commands:
-##### Console:
+### Console-Commands:
 - help
 - clear
 - exit
 
 
-Please note:
-Bundle currently is under developement. It may occur errors and several commands can't be executed for now.
+**Please note:**  Bundle currently is under developement. It may occur errors and several commands can't be executed for now.
