@@ -22,7 +22,7 @@ class Artisanplus_Base_Controller extends Controller {
 		$args = str_replace(
 			array('+', '.'),
 			array('::', ':'),
-			explode('/', $cmd)
+			explode(' ', $cmd)
 		);
 
 		ob_start();
